@@ -6,6 +6,7 @@ public class Collectible : MonoBehaviour
 { 
 
 public float rotationSpeed;
+public GameObject onCollectEffect;
 
     // Start is called before the first frame update
     void Start()
