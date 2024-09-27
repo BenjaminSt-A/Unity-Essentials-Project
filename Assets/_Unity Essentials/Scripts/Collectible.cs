@@ -18,4 +18,11 @@ public float rotationSpeed;
     {
         transform.Rotate(0, rotationSpeed, 0);
     }
+
+
+private void OnTriggerEnter(Collider other) {
+    //destroy uwu
+     Destroy(gameObject);
+}
+
 }
