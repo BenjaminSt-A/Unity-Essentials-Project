@@ -22,10 +22,14 @@ public GameObject onCollectEffect;
 
 
 private void OnTriggerEnter(Collider other) {
-    //destroy uwu
+    if (other.CompareTag("Player")) {
+     //destroy uwu
      Destroy(gameObject);
      // instantiate the particle effect
 Instantiate(onCollectEffect, transform.position, transform.rotation);
+
+}
+
 
 
 
